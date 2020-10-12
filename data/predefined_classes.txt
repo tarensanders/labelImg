@@ -1,15 +1,45 @@
-dog
-person
-cat
-tv
-car
-meatballs
-marinara sauce
-tomato soup
-chicken noodle soup
-french onion soup
-chicken breast
-ribs
-pulled pork
-hamburger
-cavity
+book open
+mobile phone
+refrigerator
+microwave
+oven
+bottle
+fork
+knife
+spoon
+glass
+cup
+drink can
+takeaway cup
+plate
+bowl
+fruit
+vegetable
+food packet
+lunch box
+diningtable
+tvmonitor
+computer monitor
+laptop
+mouse
+remote
+keyboard
+game console
+game controller
+toaster
+sink
+banana
+apple
+sandwich
+orange
+broccoli
+carrot
+hot dog
+pizza
+donut
+cake
+biscuit
+chips
+tablet
+baking tray
+pen
