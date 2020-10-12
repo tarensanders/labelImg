@@ -1,0 +1,19 @@
+name: labelImg
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - isort
+  - jupyterlab=2
+  - jupyterlab_code_formatter
+  - matplotlib
+  - nodejs
+  - numpy
+  - pandas
+  - pip
+  - python
+  - scipy
+  - seaborn
+  - pyqt=5
+  - lxml
