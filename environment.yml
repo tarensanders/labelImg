@@ -17,3 +17,4 @@ dependencies:
   - seaborn
   - pyqt=5
   - lxml
+  - tqdm
