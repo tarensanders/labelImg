@@ -11,6 +11,8 @@ LabelImg
     :width: 200px
     :align: center
 
+**Note**: This is a lightly edited fork of the original `LabelImg <https://github.com/tzutalin/labelImg>`__ repo. The fork is just to keep the `data/predefined\_classes.txt <https://github.com/tarensanders/labelImg/blob/master/data/predefined_classes.txt>`__ correct for the Square Eyes project.
+
 LabelImg is a graphical image annotation tool.
 
 It is written in Python and uses Qt for its graphical interface.
@@ -29,6 +31,38 @@ by `ImageNet <http://www.image-net.org/>`__.  Besides, it also supports YOLO for
 Installation
 ------------------
 
+Using the Conda Environment
+~~~~~~~~~~~~~~~~~
+
+The full instructions for installing are below. For a faster option, use the `environment.yml <https://github.com/tarensanders/labelImg/blob/master/environment.yml>`__ file to use a known-good environment.
+
+macOS
+^^^^^
+
+Navigate to the labelImg folder. Then:
+
+.. code:: shell
+
+    conda env create -f environment.yml
+    conda activate labelImg
+    [OPTIONAL] jupyter labextension install @ryantam626/jupyterlab_code_formatter
+    [OPTIONAL] jupyter serverextension enable --py jupyterlab_code_formatter
+    make qt5py3
+    python labelImg.py
+
+Windows
+^^^^^
+
+Navigate to the labelImg folder. Then:
+
+.. code:: shell
+
+    conda env create -f environment.yml
+    conda activate labelImg
+    [OPTIONAL] jupyter labextension install @ryantam626/jupyterlab_code_formatter
+    [OPTIONAL] jupyter serverextension enable --py jupyterlab_code_formatter
+    pyrcc5 -o libs/resources.py resources.qrc
+    python labelImg.py
 
 Build from source
 ~~~~~~~~~~~~~~~~~
@@ -212,7 +246,7 @@ Create pre-defined classes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can edit the
-`data/predefined\_classes.txt <https://github.com/tzutalin/labelImg/blob/master/data/predefined_classes.txt>`__
+`data/predefined\_classes.txt <https://github.com/tarensanders/labelImg/blob/master/data/predefined_classes.txt>`__
 to load pre-defined classes
 
 Hotkeys
@@ -273,7 +307,7 @@ Send a pull request
 
 License
 ~~~~~~~
-`Free software: MIT license <https://github.com/tzutalin/labelImg/blob/master/LICENSE>`_
+`Free software: MIT license <https://github.com/tarensanders/labelImg/blob/master/LICENSE>`_
 
 Citation: Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
 
